@@ -1,0 +1,150 @@
+.input {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.input + label {
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.input:focus + label,
+.input + label:hover {
+    background-color: black;
+    color: white;
+}
+
+.upload {
+	border-color: black;
+	background-color: white;
+	width: 50%;
+	border-radius: 20px;
+	border-width: 2px;
+}
+
+.upload:hover {
+	color: white;
+	background-color: black;
+}
+
+.photo {
+	padding-left: 23px;
+	padding-right: 23px;
+	padding-top: 20px;
+	width: 600px;
+	border: 2px solid black;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+
+.capturebtn {
+	margin-bottom: 10px;
+	margin-left: 140px;
+	display: block;
+	text-decoration: none;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	width: 50%;
+	border-radius: 20px;
+	border-width: 2px;
+	text-align: center;
+}
+
+.capturebtn:hover {
+	color: white;
+	background-color: black;
+}
+
+.take {
+	margin-left: 31.5%;
+	display: block;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	text-decoration: none;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	width: 35%;
+	border-radius: 20px;
+	border-width: 2px;
+	text-align: center;
+}
+
+.take:hover {
+	color: white;
+	background-color: black;
+}
+
+.add {
+	margin-bottom: 10px;
+	text-decoration: none;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	border-radius: 20px;
+	border-width: 2px;
+}
+
+.add:hover {
+	color: white;
+	background-color: black;
+}
+
+div.image {
+	margin-top: 50px;
+	padding-top: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	width: 600px;
+	height: 500px;
+	margin-left: 10px;
+	padding-left: 20px;
+}
+
+.stickerD {
+	margin-top: 45px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+}
+
+.sticker {
+	width: 150px;
+}
+
+.thumb {
+	position: relative;
+	width: 320px;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+
+.thumbnail {
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 5px;
+	width: 150px;
+}
+
+.thumbnail:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5)
+}
+
+.preview {
+	width: 200px;
+	height: 150px;
+}
